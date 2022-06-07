@@ -674,11 +674,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Idp\\Spotify.Idp.csproj",
+      "projectUniqueName": "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Idp\\Spotify.Idp.csproj",
       "projectName": "Spotify.Idp",
-      "projectPath": "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Idp\\Spotify.Idp.csproj",
+      "projectPath": "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Idp\\Spotify.Idp.csproj",
       "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
-      "outputPath": "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Idp\\obj\\",
+      "outputPath": "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Idp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

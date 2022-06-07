@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Repository\\Spotify.Repository.csproj": {}
+    "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Repository\\Spotify.Repository.csproj": {}
   },
   "projects": {
-    "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Domain\\Spotify.Domain.csproj": {
+    "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Domain\\Spotify.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Domain\\Spotify.Domain.csproj",
+        "projectUniqueName": "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Domain\\Spotify.Domain.csproj",
         "projectName": "Spotify.Domain",
-        "projectPath": "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Domain\\Spotify.Domain.csproj",
+        "projectPath": "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Domain\\Spotify.Domain.csproj",
         "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Domain\\obj\\",
+        "outputPath": "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Repository\\Spotify.Repository.csproj": {
+    "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Repository\\Spotify.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Repository\\Spotify.Repository.csproj",
+        "projectUniqueName": "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Repository\\Spotify.Repository.csproj",
         "projectName": "Spotify.Repository",
-        "projectPath": "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Repository\\Spotify.Repository.csproj",
+        "projectPath": "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Repository\\Spotify.Repository.csproj",
         "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Repository\\obj\\",
+        "outputPath": "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -94,8 +94,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Domain\\Spotify.Domain.csproj": {
-                "projectPath": "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Domain\\Spotify.Domain.csproj"
+              "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Domain\\Spotify.Domain.csproj": {
+                "projectPath": "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Domain\\Spotify.Domain.csproj"
               }
             }
           }

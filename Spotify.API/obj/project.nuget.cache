@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Obv37OhLiZSqKU/RZro9C63hgeuJyeLmj+34T02OvHVM/2/mhX2/nlGZlOeCJH/k7zi9zMY6z3nkAeEbqOchvA==",
+  "dgSpecHash": "tpWWvo5e+Z3CvUKcMs5XNKCZVtpOwSBWZZnWA92izN8tTvcGueV+3wZuHt/HgZiYJX3LcmEMJKpwQBAwA2zoJQ==",
   "success": true,
-  "projectFilePath": "C:\\SourceTree\\Spotify\\Spotify\\Spotify.API\\Spotify.API.csproj",
+  "projectFilePath": "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.API\\Spotify.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thiago\\.nuget\\packages\\fluentvalidation\\11.0.2\\fluentvalidation.11.0.2.nupkg.sha512",
     "C:\\Users\\Thiago\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

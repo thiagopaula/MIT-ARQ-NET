@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YNtB6goPy9xWCYAbJoQtjYFuM6U30y5PDv6vx0Cl0tynZ2Kn2g/qHSNRg33hZWCQD96LYnQoSP6jMMAnArFtxg==",
+  "dgSpecHash": "/OuV6CBTWXovYMZDLEM9MImRAH4QaDa0OYEfqNous589/Iv+9BStjElhCgZAIIGadZu9W41RYM7QQ9M/0+42DA==",
   "success": true,
-  "projectFilePath": "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Idp\\Spotify.Idp.csproj",
+  "projectFilePath": "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Idp\\Spotify.Idp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thiago\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
     "C:\\Users\\Thiago\\.nuget\\packages\\identityserver4\\4.1.2\\identityserver4.4.1.2.nupkg.sha512",

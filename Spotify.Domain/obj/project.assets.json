@@ -48,11 +48,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Domain\\Spotify.Domain.csproj",
+      "projectUniqueName": "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Domain\\Spotify.Domain.csproj",
       "projectName": "Spotify.Domain",
-      "projectPath": "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Domain\\Spotify.Domain.csproj",
+      "projectPath": "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Domain\\Spotify.Domain.csproj",
       "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
-      "outputPath": "C:\\SourceTree\\Spotify\\Spotify\\Spotify.Domain\\obj\\",
+      "outputPath": "C:\\SourceTree\\Spotify-MIT-ARQ-NET\\MIT-ARQ-NET\\Spotify.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
