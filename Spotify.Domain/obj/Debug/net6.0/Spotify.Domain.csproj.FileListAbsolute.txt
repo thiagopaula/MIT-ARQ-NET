@@ -1,0 +1,12 @@
+C:\SourceTree\Spotify\Spotify\Spotify.Domain\bin\Debug\net6.0\Spotify.Domain.deps.json
+C:\SourceTree\Spotify\Spotify\Spotify.Domain\bin\Debug\net6.0\Spotify.Domain.dll
+C:\SourceTree\Spotify\Spotify\Spotify.Domain\bin\Debug\net6.0\Spotify.Domain.pdb
+C:\SourceTree\Spotify\Spotify\Spotify.Domain\obj\Debug\net6.0\Spotify.Domain.csproj.AssemblyReference.cache
+C:\SourceTree\Spotify\Spotify\Spotify.Domain\obj\Debug\net6.0\Spotify.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\SourceTree\Spotify\Spotify\Spotify.Domain\obj\Debug\net6.0\Spotify.Domain.AssemblyInfoInputs.cache
+C:\SourceTree\Spotify\Spotify\Spotify.Domain\obj\Debug\net6.0\Spotify.Domain.AssemblyInfo.cs
+C:\SourceTree\Spotify\Spotify\Spotify.Domain\obj\Debug\net6.0\Spotify.Domain.csproj.CoreCompileInputs.cache
+C:\SourceTree\Spotify\Spotify\Spotify.Domain\obj\Debug\net6.0\Spotify.Domain.dll
+C:\SourceTree\Spotify\Spotify\Spotify.Domain\obj\Debug\net6.0\refint\Spotify.Domain.dll
+C:\SourceTree\Spotify\Spotify\Spotify.Domain\obj\Debug\net6.0\Spotify.Domain.pdb
+C:\SourceTree\Spotify\Spotify\Spotify.Domain\obj\Debug\net6.0\ref\Spotify.Domain.dll
