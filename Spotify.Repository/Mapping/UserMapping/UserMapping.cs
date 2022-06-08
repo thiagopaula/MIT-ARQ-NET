@@ -24,6 +24,11 @@ namespace Spotify.Repository.Mapping.UserMapping
             {
                 f.Property(x => x.Value).HasColumnName("Password");
             });
+
+            build.OwnsOne(p => p.CPF, f =>
+            {
+                f.Property(x => x.Value).HasColumnName("CPF");
+            });
         }
     }
 }
