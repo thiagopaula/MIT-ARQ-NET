@@ -130,3 +130,10 @@ C:\SourceTree\Spotify-MIT-ARQ-NET\MIT-ARQ-NET\Spotify.API\obj\Debug\net6.0\refin
 C:\SourceTree\Spotify-MIT-ARQ-NET\MIT-ARQ-NET\Spotify.API\obj\Debug\net6.0\Spotify.API.pdb
 C:\SourceTree\Spotify-MIT-ARQ-NET\MIT-ARQ-NET\Spotify.API\obj\Debug\net6.0\Spotify.API.genruntimeconfig.cache
 C:\SourceTree\Spotify-MIT-ARQ-NET\MIT-ARQ-NET\Spotify.API\obj\Debug\net6.0\ref\Spotify.API.dll
+C:\SourceTree\Spotify-MIT-ARQ-NET\MIT-ARQ-NET\Spotify.API\bin\Debug\net6.0\Spotify.Infrastructure.dll
+C:\SourceTree\Spotify-MIT-ARQ-NET\MIT-ARQ-NET\Spotify.API\bin\Debug\net6.0\Spotify.Infrastructure.pdb
+C:\SourceTree\Spotify-MIT-ARQ-NET\MIT-ARQ-NET\Spotify.API\bin\Debug\net6.0\IdentityModel.dll
+C:\SourceTree\Spotify-MIT-ARQ-NET\MIT-ARQ-NET\Spotify.API\bin\Debug\net6.0\IdentityModel.AspNetCore.OAuth2Introspection.dll
+C:\SourceTree\Spotify-MIT-ARQ-NET\MIT-ARQ-NET\Spotify.API\bin\Debug\net6.0\IdentityServer4.AccessTokenValidation.dll
+C:\SourceTree\Spotify-MIT-ARQ-NET\MIT-ARQ-NET\Spotify.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\SourceTree\Spotify-MIT-ARQ-NET\MIT-ARQ-NET\Spotify.API\bin\Debug\net6.0\Newtonsoft.Json.dll

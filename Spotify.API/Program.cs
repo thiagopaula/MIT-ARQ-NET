@@ -1,5 +1,11 @@
+using IdentityServer4.AccessTokenValidation;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
+using Spotify.Domain.Album.Repository;
+using Spotify.Domain.User.Repository;
+using Spotify.Repository;
 using Spotify.Repository.Context;
+using Spotify.Repository.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,10 +16,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<SpotifyContext>(c =>
-{
-    c.UseSqlServer(builder.Configuration.GetConnectionString("SpotifyDB"));
-});
+builder.Services.RegisterRepository(builder.Configuration.GetConnectionString("SpotifyDB"));
+
+//builder.Services.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
+//    .AddIdentityServerAuthentication(opt =>
+//    {
+//        opt.Authority = "";
+//        opt.ApiName = "Spotify";
+//        opt.ApiSecret = "";
+//    });
 
 var app = builder.Build();
 
@@ -25,6 +36,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

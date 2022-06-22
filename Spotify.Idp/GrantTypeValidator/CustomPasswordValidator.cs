@@ -1,23 +1,27 @@
 ﻿using IdentityModel;
 using IdentityServer4.Validation;
 using System.Threading.Tasks;
+using Spotify.Domain.User.Repository;
 
 namespace Spotify.Idp.GrantTypeValidator
 {
     public class CustomPasswordValidator : IResourceOwnerPasswordValidator
     {
-        public Task ValidateAsync(ResourceOwnerPasswordValidationContext context)
+        public IUserRepository _userRepository { get; }
+        public CustomPasswordValidator(IUserRepository userRepository)
+        {
+            _userRepository = userRepository;
+        }
+        public async Task ValidateAsync(ResourceOwnerPasswordValidationContext context)
         {
             var password = context.Password;
-            var user = context.UserName;
+            var username = context.UserName;
 
-            if (user == "admin" && password == "1234")
-            {
-                context.Result = new GrantValidationResult("1234", OidcConstants.AuthenticationMethods.Password);
-                return Task.CompletedTask;
-            }
+            var user = await _userRepository.GetUserByPassword(username, password);
 
-            return Task.CompletedTask;
+            if (user != null)
+                context.Result = new GrantValidationResult(user.Id.ToString(), OidcConstants.AuthenticationMethods.Password);
+
         }
     }
 }

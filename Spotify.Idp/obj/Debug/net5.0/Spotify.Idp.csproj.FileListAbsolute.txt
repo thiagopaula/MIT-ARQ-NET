@@ -37,3 +37,6 @@ C:\SourceTree\Spotify\Spotify\Spotify.Idp\obj\Debug\net5.0\refint\Spotify.Idp.dl
 C:\SourceTree\Spotify\Spotify\Spotify.Idp\obj\Debug\net5.0\Spotify.Idp.pdb
 C:\SourceTree\Spotify\Spotify\Spotify.Idp\obj\Debug\net5.0\Spotify.Idp.genruntimeconfig.cache
 C:\SourceTree\Spotify\Spotify\Spotify.Idp\obj\Debug\net5.0\ref\Spotify.Idp.dll
+C:\SourceTree\Spotify-MIT-ARQ-NET\MIT-ARQ-NET\Spotify.Idp\obj\Debug\net5.0\Spotify.Idp.dll
+C:\SourceTree\Spotify-MIT-ARQ-NET\MIT-ARQ-NET\Spotify.Idp\obj\Debug\net5.0\refint\Spotify.Idp.dll
+C:\SourceTree\Spotify-MIT-ARQ-NET\MIT-ARQ-NET\Spotify.Idp\obj\Debug\net5.0\Spotify.Idp.pdb
