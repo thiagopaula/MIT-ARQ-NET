@@ -6,21 +6,22 @@ namespace Spotify.Repository.Mapping.AlbumMapping
 {
     public class AlbumMapping : IEntityTypeConfiguration<Album>
     {
-        public void Configure(EntityTypeBuilder<Album> build)
+        public void Configure(EntityTypeBuilder<Album> builder)
         {
-            build.ToTable("Albums");
-            build.HasKey(x => x.Id);
-            build.Property(x => x.Id).ValueGeneratedOnAdd();
-            build.Property(x => x.Name).IsRequired().HasMaxLength(150);
-            build.Property(x => x.Description).IsRequired().HasMaxLength(500);
-            build.Property(x => x.Backdrop).HasMaxLength(1024);
+            builder.ToTable("Albums");
+            builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id).ValueGeneratedOnAdd();
+            builder.Property(x => x.Name).IsRequired().HasMaxLength(150);
+            builder.Property(x => x.Description).IsRequired().HasMaxLength(500);
+            builder.Property(x => x.Backdrop).HasMaxLength(1024);
+            builder.Property(x => x.ReleaseDate).IsRequired();
 
-            build.OwnsOne(p => p.Band, f =>
+            builder.OwnsOne(p => p.Band, f =>
             {
                 f.Property(x => x.Name).HasColumnName("BandName");
             });
 
-            build.HasMany(x => x.Musics).WithOne().OnDelete(DeleteBehavior.Cascade);
+            builder.HasMany(x => x.Musics).WithOne().OnDelete(DeleteBehavior.Cascade);
 
         }
     }

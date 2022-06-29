@@ -17,7 +17,10 @@ namespace Spotify.Repository.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             ILoggerFactory loggerFactory = LoggerFactory.Create(c => c.AddConsole());
-            loggerFactory.CreateLogger<SpotifyContext>();
+
+            optionsBuilder.UseLoggerFactory(loggerFactory);
+
+            optionsBuilder.UseLazyLoadingProxies();
 
             base.OnConfiguring(optionsBuilder);
         }

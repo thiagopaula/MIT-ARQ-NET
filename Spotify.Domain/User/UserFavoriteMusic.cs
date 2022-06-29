@@ -8,8 +8,8 @@ namespace Spotify.Domain.User
     {
         public Guid Id { get; set; }
 
-        public Music Music { get; set; }
+        public virtual Music Music { get; set; }
 
-        public User User { get; set; }
+        public virtual User User { get; set; }
     }
 }
