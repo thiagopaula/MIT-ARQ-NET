@@ -20,13 +20,21 @@ builder.Services.AddSwaggerGen();
 builder.Services
        .RegisterApplication(builder.Configuration.GetConnectionString("SpotifyDB"));
 
-//builder.Services.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
-//    .AddIdentityServerAuthentication(opt =>
-//    {
-//        opt.Authority = "";
-//        opt.ApiName = "Spotify";
-//        opt.ApiSecret = "";
-//    });
+builder.Services.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
+                .AddIdentityServerAuthentication(opt =>
+                {
+                    opt.Authority = "https://localhost:5001";
+                    opt.ApiName = "Spotify-API";
+                    opt.ApiSecret = "SuperSenhaDificil";
+                });
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("user-policy", p =>
+    {
+        p.RequireClaim("role", "spotify-user");
+    });
+});
 
 var app = builder.Build();
 

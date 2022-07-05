@@ -1,18 +1,15 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Spotify.Application.Album.Dto;
 using Spotify.Application.Album.Handler.Commands;
 using Spotify.Application.Album.Handler.Query;
-using Spotify.Domain.Album;
-using Spotify.Domain.Album.Repository;
-using Spotify.Infrastructure.Database;
 
 namespace Spotify.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize]
+    [Authorize(Policy = "user-policy")]
     public class AlbumController : ControllerBase
     {
         public IMediator Handler { get; }

@@ -19,7 +19,7 @@ namespace Spotify.Idp.IdentityServerConfiguration
         {
             return new List<ApiResource>()
             {
-                new ApiResource("Spotify Lite", "Infnet Arquitetura", new string[] { "user", "admin" })
+                new ApiResource("Spotify", "Infnet Arquitetura", new string[] { "user", "admin" })
                 {
                     ApiSecrets =
                     {
@@ -27,7 +27,7 @@ namespace Spotify.Idp.IdentityServerConfiguration
                     },
                     Scopes =
                     {
-                        "SpotifyLite-API"
+                        "Spotify-API"
                     }
                 }
             };
@@ -39,7 +39,7 @@ namespace Spotify.Idp.IdentityServerConfiguration
             {
                 new ApiScope
                 {
-                    Name = "SpotifyAPI",
+                    Name = "Spotify-API",
                     Description = "Scope for API Spotify",
                     UserClaims = { "spotify-user", "spotify-admin" }
                 }
