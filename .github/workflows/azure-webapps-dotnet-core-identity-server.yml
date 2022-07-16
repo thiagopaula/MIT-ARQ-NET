@@ -29,7 +29,7 @@ on:
     branches:
       - "master"
     paths: 
-      - "spotify-lite/spotifylite/SpotifyLite.Idp/**"
+      - "Spotify.Idp/**"
   workflow_dispatch:
 
 permissions:
@@ -58,10 +58,10 @@ jobs:
         run: ls -n
 
       - name: Build with dotnet
-        run: dotnet build ./spotify-lite/spotifylite/SpotifyLite.Idp/SpotifyLite.Idp.csproj --configuration Release
+        run: dotnet build ./Spotify.Idp/Spotify.Idp.csproj --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish ./spotify-lite/spotifylite/SpotifyLite.Idp/SpotifyLite.Idp.csproj -c Release -o ${{env.DOTNET_ROOT}}/idp
+        run: dotnet publish ./Spotify.Idp/Spotify.Idp.csproj -c Release -o ${{env.DOTNET_ROOT}}/idp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3

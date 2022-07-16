@@ -28,6 +28,8 @@ on:
   push:
     branches:
       - "master"
+    paths: 
+      - "Spotify.API/**"
   workflow_dispatch:
 
 permissions:
@@ -56,10 +58,10 @@ jobs:
         run: ls -n
 
       - name: Build with dotnet
-        run: dotnet build ./spotify-lite/spotifylite/spotifylite/SpotifyLite.API.csproj --configuration Release
+        run: dotnet build ./Spotify.API/Spotify.API.csproj --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish ./spotify-lite/spotifylite/spotifylite/SpotifyLite.API.csproj -c Release -o ${{env.DOTNET_ROOT}}/api
+        run: dotnet publish ./Spotify.API/Spotify.API.csproj -c Release -o ${{env.DOTNET_ROOT}}/api
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3

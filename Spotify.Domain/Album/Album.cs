@@ -12,7 +12,5 @@ namespace Spotify.Domain.Album
         public string Backdrop { get; set; }
         public Band Band { get;set; }
         public virtual IList<Music> Musics {get; set; }
-        public DateTime ReleaseDate { get; set; }
-
     }
 }
